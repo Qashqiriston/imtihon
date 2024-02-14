@@ -1,0 +1,126 @@
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin-regular.woff") format("woff");
+  }
+  html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 100%;
+    width: 1316px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+
+.main{
+   margin: 64px 64px;
+}
+.main-section__one{
+    display: flex;
+    margin-bottom: 220px;
+    justify-content: space-between;
+}
+
+.main-section__two{
+    display: flex;
+    gap: 0 40px;
+}
+
+.section-title{
+    max-width: 434px;
+    max-height: 473px;
+    position: relative;
+    top: 87px;
+}
+
+.section-title__h1{
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 80px;
+    color: #252525;
+}
+
+.section-title__p{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    color: rgba(37, 37, 37, 0.8);
+    margin: 24px 0;
+    padding-right: 70px; 
+}
+
+.section-title__button{
+    background-color:  rgba(37, 37, 37, 1);
+    max-width: 157px;
+    max-height: 50px;
+    padding: 15px 20px;
+    border-radius: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color:rgba(255, 255, 255, 1);
+}
+
+.section-title__img1{
+    position: relative;
+    margin-right: 35px;
+}
+
+.section-title__img2{
+    position: relative;
+    top: 152px;
+}
+
+.section-two__img{
+    font-weight: 800;
+    font-size: 40px;
+    color:  rgba(37, 37, 37, 0.25);
+    margin-bottom: 15px;
+}

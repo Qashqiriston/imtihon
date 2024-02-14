@@ -1,0 +1,5 @@
+1. div va span eng katta farqi avalo ularni positionlarida div block element span esa inline-block element hisonblanadi. div bilan karopka singari foydalansangiz boladi. span bilan esa asosan kichik tekstlarni o'zini alohida hossalari o'gartirib scc berishda  kerak boladi.
+
+2.css box modeli bu web sahifaning joylashuv va holatini belgilaydi va bu holat atrofadagi padding va content hududi borderlari bilan ko'rinishi  box modelni ifodalaydi.
+
+3. this kalit sozi o'zining parent elementini korsatadi yani ozidan yuqoridagi funksiya class obyektga b=murojat qiladi. arrow functionga berib bolmaydi yana ochiq holatda this qatiy rejim yoqilmagan bolsa windowga murojat qiladi . use streck  yoqiq bolsa undefined oladi. 
